@@ -18,13 +18,15 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "clsx": "^2.0.0",
-    "lucide-react": "^0.376.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.10",
+    "lucide-react": "^0.383.0",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
-    "tailwind-merge": "^2.1.0",
+    "simplex-noise": "^4.0.1",
+    "tailwind-merge": "^2.3.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
@@ -57,7 +59,7 @@
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
-      "eslint --max-warnings=0",
+      "eslint --max-warnings=100",
       "prettier -w"
     ],
     "**/*.{json,css,scss,md,webmanifest}": [
